@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contiener{
+background-color: rgb(248, 255, 240);
+border: 20px;
+}
+.content{
+max-width: 900px;
+margin:  auto;
+}
+.image-content{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-content,
+img{
+    width: 300px;
+    height: 320px;
+
+}
+.top-section h4{
+    font-size: 20px;
+    
+    text-align: end;
+    text-transform: uppercase
+
+}
+.top-section h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: right;
+    color: brown;
+    text-transform: uppercase;
+}
+.top_section{
+margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
